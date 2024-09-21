@@ -1,3 +1,17 @@
+#"""
+# update to finder.py
+# 
+# 1. Added user prompts to enable or disable additional features.
+# 2. Added a ping test function to check if an IP is reachable.
+# 3. Added port checking functionality to scan for common open ports on the target IP.
+# 4. Implemented traceroute to map the path packets take to the target IP.
+# 5. Added domain name resolution to resolve hostnames to IP addresses.
+# 6. Added reverse DNS lookup to find hostnames from IP addresses.
+# 7. Added functionality to save the gathered information to a file named {searched_ip}.txt.
+# 8. Retained IP geolocation via ipapi and enhanced the display of results.
+# 9. All features are now toggleable via user prompts to offer more control during execution.
+#"""
+
 import ipapi
 import socket
 import subprocess
