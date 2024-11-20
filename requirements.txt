@@ -1,3 +1,4 @@
 colorama
 ipapi
 rgbprint
+ping3
